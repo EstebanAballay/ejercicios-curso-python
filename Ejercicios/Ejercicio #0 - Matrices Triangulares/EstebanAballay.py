@@ -1,17 +1,3 @@
-""" a = 5
-nombre = "Juan"
-print(f"Mi nombre es {nombre} y tengo {a} años", a)
- """
-# Matriz
-""" columnas = 10
-filas = 10
-matriz = [[int() for i in range(columnas)]for j in range(filas)]
-
-for i in range(filas):
-    for j in range(columnas):
-        matriz[i][j] = str(i) + str(j)
-        print(matriz[i][j],end=" ")
-    print(" ") """
 def boolean(cadena):
     if cadena == "SI":
         return True
